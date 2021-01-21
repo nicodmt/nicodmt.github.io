@@ -2,228 +2,59 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-  <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Nicolas Dumont</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap">
+    <title>Nicolas Dumont</title>
 </head>
 
 <body>
-  <!-- Welcome Section -->
-  <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/header.jpg">
-    <div class="container-fluid tm-brand-container-outer">
-      <div class="row">
-        <div class="col-12">
-          <!-- Logo Area -->
-          <!-- Black transparent bg -->
-          <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
-            <div class="tm-brand-container text-center">
-              <h1 class="tm-brand-name">Nicolas Dumont</h1>
-              <p class="tm-brand-description mb-0">Soon to be system engineer</p>
+    <header>
+        <nav>
+            <img class="logo" src="images/logo.png" alt="">
+            <ul>
+                <li><a href="https://www.github.com/nicodmt" class="github">Github</a></li>
+                <li><a href="index.html" class="active">home</a></li>
+                <li><a href="digitalClockWDate/clock.html">Clock</a></li>
+                <li><a href="rainbow/rainbowEffect.html">Rainbow</a></li>
+                <li><a href="qrGenerator/qrGenerator.html">QR Generator</a></li>
+                <li><a href="parallaxTilt/parallaxTilt.html">3D Tilt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="random-section">
+        <div class="card">
+            <div class="top-content">
+                <div class="profile-image">
+                    <img src="./images/nicolas.png" alt="">
+                </div>
+                <div class="top-bar">
+                    <a href="https://www.paypal.me/nicodmt"><img class="top-icons" src="./images/coffee.png" alt=""></a>
+                </div>
             </div>
-          </div>
+            <div class="mid-content">
+                <div class="short-detail">
+                    <h3>NICOLAS DUMONT <img src="./images/check.png" alt=""></h3>
+                    <span>Software Developer</span>
+                    <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I can
+                        always do better and achieve greatness.</p>
+                    <div class="follow-followers">
+                        <div><span>LOCATED</span>
+                            <p>Stockholm</p>
+                        </div>
+                        <div><span>WORK</span>
+                            <p>Remote</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <button><a href="mailto:nicolas.dumont@hotmail.se">CONTACT</a></button>
+            </div>
         </div>
-      </div>
     </div>
-
-    <div class="tm-bg-white-transparent tm-welcome-container">
-      <div class="container-fluid">
-        <div class="row h-100">
-          <!-- Welcome Text -->
-          <!-- White transparent bg -->
-          <div class="col-md-7 tm-welcome-left-col">
-            <div class="tm-welcome-left">
-              <h2 class="tm-welcome-title">Welcome to my portfolio page</h2>
-              <p class="pb-0">
-                Below you will find what i personally find as my most educational projects. For more go to my <a
-                  rel="Github" href="https://github.com/nicodmt">Github</a> where i have more
-                projects i am proud of.</p>
-            </div>
-          </div>
-          <!-- Brown bg -->
-          <div class="col-md-5">
-            <div class="tm-welcome-right">
-              <img class="tm-welcome-icon" src="img/nicolas_dumont_icon.png" alt="Nicolas Dumont small icon"></img>
-              <p class="mb-0">
-                I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I can always do
-                better and achieve greatness.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Welcome section -->
-
-  <!-- Portfolio section -->
-  <section id="tmPortfolio">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="tm-portfolio-item">
-            <img class="tm-portfolio-name" src="img/WeatherApp.PNG" alt="Weather web application">
-            <div class="tm-portfolio-description">
-              <h3 class="tm-text-orange">
-                Weather Application
-                <span class="tm-title-small"><a rel="Github link to project"
-                    href="https://github.com/nicodmt/Weather_app_API">(Link to project)</a></span>
-              </h3>
-              <p class="mb-0">
-                My first project using the JavaScript framework Vue.
-                <br>Using weather API to fetch data depending on user location.
-                <br>Languages: HTML, CSS, JavaScript, Vue.
-              </p>
-            </div>
-          </div>
-
-          <div class="tm-portfolio-item">
-            <img class="tm-portfolio-name" src="img/WebshopApp.PNG" alt="Webshop application">
-            <div class="tm-portfolio-description">
-              <h3 class="tm-text-orange">
-                Webshop Application
-                <span class="tm-title-small"><a rel="Github link to project"
-                    href="https://github.com/nicodmt/slutprojekt_webapp_2.0">(Link to project)</a></span>
-              </h3>
-              <p class="mb-0">
-                Webshop connected to a backend API created with Vue.
-                <br>Languages: HTML, CSS, JavaScript, Vue.
-              </p>
-            </div>
-          </div>
-
-          <div class="tm-portfolio-item">
-            <img class="tm-portfolio-name" src="img/ChatApp.PNG" alt="Chat application">
-            <div class="tm-portfolio-description">
-              <h3 class="tm-text-orange">
-                Chat Application
-                <span class="tm-title-small"><a rel="Github link to project"
-                    href="https://github.com/nicodmt/ChatAppSpringBootMySQL">(Link to project)</a></span>
-              </h3>
-              <p class="mb-0">
-                Chat application using Spring Boot, Web Socket, MySQL for company devrent.
-                <br>Languages: HTML, CSS, JavaScript, Java.
-              </p>
-            </div>
-          </div>
-
-          <div class="tm-portfolio-item">
-            <img class="tm-portfolio-name" src="img/ContactManager.PNG" alt="Contact manager application">
-            <div class="tm-portfolio-description">
-              <h3 class="tm-text-orange">
-                Contact Manager Application
-                <span class="tm-title-small"><a rel="Github link to project"
-                    href="https://github.com/nicodmt/ContactManagerSpringCRUD">(Link to project)</a></span>
-              </h3>
-              <p class="mb-0">
-                Contact Manager CRUD application using Spring framework, Spring MVC, Spring JDBC, Java Servlet, JSP,
-                JSTL, JUnit, Maven, Tomcat, MySQL and JUnit.
-                <br>Languages: Java.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End portfolio section -->
-
-  <!-- Contact section -->
-  <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/footer.jpg">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="tm-contact-items-container">
-            <div class="tm-contact-item">
-              <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
-              <p class="mb-0">
-                I am looking for a full time system engineer job. If you find my portfolio interesting and would like to
-                get in touch with me send me a message trough the form below.
-              </p>
-            </div>
-            <div class="tm-contact-item">
-              <i class="fas fa-5x fa-map tm-contact-item-icon"></i>
-              <p class="mb-0">
-                I am located in the northern suburbs of Stockholm, Sweden, but i have no issues working remote.
-              </p>
-            </div>
-
-            <div class="tm-contact-item">
-              <i class="fas fa-5x fa-code tm-contact-item-icon"></i>
-              <p class="mb-0">
-                Hackaton? Pizza and code? Need help for school project?
-                <br>Count me in! Get in touch with the form below.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <form id="tmContactForm" class="tm-bg-white-transparent">
-            <div class="form-group">
-              <div class="text-center">
-                <h4>Because of spam email i have chosen to take away the form.</h4>
-                <p>Click <a href="mailto:nicolas.dumont@hotmail.se">HERE</a> to get in touch!</p>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="row">
-        <p class="text-center tm-footer-text"><a href="instagramPictures.html">Patrice</a></p>
-      </div>
-      <!-- row -->
-      <div class="row">
-        <footer class="col-12">
-          <p class="text-center tm-footer-text"><a href="index.html">Back to top</a></p>
-        </footer>
-      </div>
-    </div>
-    <!-- container -->
-  </div>
-  <!-- section -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/parallax.min.js"></script>
-  <script>
-    function detectMsBrowser() {
-      using_ms_browser =
-        navigator.appName == "Microsoft Internet Explorer" ||
-        (navigator.appName == "Netscape" &&
-          navigator.appVersion.indexOf("Edge") > -1) ||
-        (navigator.appName == "Netscape" &&
-          navigator.appVersion.indexOf("Trident") > -1);
-
-      if (using_ms_browser == true) {
-        alert(
-          "Please use Chrome or Firefox for the best browsing experience!"
-        );
-      }
-    }
-    function setBrandMarginTop() {
-      var bottomContainerHeight = $(".tm-welcome-container").height();
-
-      $(".tm-brand-container-outer").css({
-        "margin-top": -bottomContainerHeight + "px"
-      });
-    }
-
-    $(function () {
-      setBrandMarginTop();
-      detectMsBrowser();
-
-      // Handle window resize event
-      $(window).resize(function () {
-        setBrandMarginTop();
-      });
-    });
-  </script>
 </body>
 
 </html>

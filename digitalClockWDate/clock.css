@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #2c2f3b;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(24, 24, 24);
+}
+
+header nav .logo {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+header nav ul li a.github, header nav ul li a.github:hover{
+    color: #FDCC34;
+    margin-right: 40px;
+}
+
+header nav ul li a.active, header nav ul li a:hover {
+    color: #3079ed;
+}
+
+.clockBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.container {
+    border: 10px solid rgb(0, 240, 240);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 50%;
+    background: rgb(36, 37, 51);
+    box-shadow: 0 0 32px rgba(0, 240, 240, 0.3), 0 0 12px rgba(0, 0, 0, 0.4) inset;
+}
+
+.blink-colon {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+.date-container {
+    margin-top: 8px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.8);
+}

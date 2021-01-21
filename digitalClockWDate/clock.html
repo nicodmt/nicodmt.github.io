@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap">
+    <title>Nicolas Dumont</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="../images/logo.png" alt="">
+            <ul>
+                <li><a href="https://www.github.com/nicodmt" class="github">Github</a></li>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="clock.html" class="active">Clock</a></li>
+                <li><a href="../rainbow/rainbowEffect.html">Rainbow</a></li>
+                <li><a href="../qrGenerator/qrGenerator.html">QR Generator</a></li>
+                <li><a href="../parallaxTilt/parallaxTilt.html">3D Tilt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="clockBody">
+        <div class="container">
+            <div class="time">
+                <span id="hour">00</span>
+                <span class="blink-colon">:</span>
+                <span id="minute">00</span>
+                <span class="blink-colon">:</span>
+                <span id="second">00</span>
+            </div>
+            <div class="date-container">
+                <span id="date">00/00/0000</span>
+                <span id="day"> xxxday</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+
+</html>
