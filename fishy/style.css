@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/background2.png);
+    background-size: cover;
+}
+#fullscreenButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
